@@ -16,16 +16,20 @@
 * Step 10 : Testing Performance in JUnit Tests
           By @Test(Timeout:1000); 10000 is in ms.
 * Step 11 : Parameterized Tests
-          i) Add class level annotation:- @RunWith(Parameterized.class)
+          i) Add class level annotation:- @RunWith(Parameterized.class).
+		  
           ii) Define Actuals parameters b creating a static method with @Parameters which return Collection.
-            like:- @Parameters
-                    public static Collection<String[]> testConditions(){
-                        String expectedOutput[][] = { {"AACD","CD"}, {"ACD","CD"} };  // can add any no of conditions
-                        return Arrays.asList(expectedOutput);
-                          }
-          iii) Create two class level feilds input and expectedOutPut.
-          iv)  Create Parameterized Constructor for these feilds.(eg:- AACD goes to input and CD goes to Output).
-          v)    Instead of expected and actuals pass expectedOutPut and input.
+            like:- ` @Parameters
+                    ` public static Collection<String[]> testConditions(){
+                      `  String expectedOutput[][] = { {"AACD","CD"}, {"ACD","CD"} };  // can add any no of conditions
+                       ` return Arrays.asList(expectedOutput);
+                        `  } 
+          
+		  iii) Create two class level feilds input and expectedOutPut.
+          
+		  iv)  Create Parameterized Constructor for these feilds.(eg:- AACD goes to input and CD goes to Output).
+          
+		  v)    Instead of expected and actuals pass expectedOutPut and input.
 
 * Step 12 : Organize JUnits into Suites
         -Right click and choose junit-> choose Junit Test Suite--> Test Classes to inclcude in suite.
