@@ -1,8 +1,13 @@
 # Architecture
 1. JVM architecture  
-2. Where does local, class variables, methods, threads are initialized in memory  
+2. Where does local, class variables, methods, threads are initialized in memory
+Q. Can I import the same package/class twice? Will the JVM load the package twice at runtime?
+    Ans: One can import the same package or same class multiple times. Neither compiler nor JVM complains about it. 
+	But the JVM will internally load the class only once no matter how many times you import the same class.  
 3. Garbage collection and its changes in different versions of Java  
 4. What if we instantiate the same Object in finalize() method?    
+Q. what is Type- References in Java. How to distinguise between them?
+	Ans: 
 
 # General
 1. Principal concepts of OOPS?  
