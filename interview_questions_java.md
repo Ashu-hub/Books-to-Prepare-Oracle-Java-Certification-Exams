@@ -103,7 +103,11 @@ How many objects will be created for : String s = new String ("ABC");
 Count the maximum number of repeated alphabets and print the alphabet with number of occurances?  
 
 # Additional Info:
-use of '_' as an identifier might not be supported in releases after Java SE 8
+Q) 	Use of '_' as an identifier might not be supported in releases after Java SE 8
+	Ans:- '_'is not valid in Lambdas, From Java SE9, '_' should not be used as an identifier, since it is a reserved keyword from source level 1.8 on
+	eg:
+	String _ = "ABC"; //Java 8 valid
+	String _ = "ABC"; //Java 9 onwards Invalid
 
 # Others
 JMS? and why do we use it?  
