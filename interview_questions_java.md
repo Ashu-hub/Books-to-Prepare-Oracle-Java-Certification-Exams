@@ -79,10 +79,11 @@ Difference between array and arrayList?
 Different implementations of List, Set and Map?  
 When should you use ArrayList and when should you use LinkedList?  
 Write your implementation of LinkedList?  
-Write a List having features(Advantages) of both LinkedList and ArrayList?  
+Write a List having features(Advantages) of both LinkedList and ArrayList?
 
 Difference between HashSet and TreeSet?  
 How Treeset Works?  
+
 
 # Map
 Which datastructure HashMap internally uses to store data?  
@@ -97,6 +98,7 @@ Multimap(Not from Guava, write your implementation)
 How to sort values in HashMap?
 Map having list and objects?  
 Spliterator and listiterator?   
+Diff Between HashMap and WeakHashMap? 
 
 # String
 How many objects will be created for : String s = new String ("ABC"); 
@@ -127,7 +129,7 @@ How to call servlet from another servlet?
 **1. Principal concepts of OOPS?**  
 
    **A-PIE**  
-   **A** - Abstraction (Hiding the implementation complexity)  
+   **A** - Abstraction (Hiding the implementation complexity)  eg:Abstract Classes.
    **P** - Polymorphism (1 Interface many implementations, achieved with help of Overloading and Overriding)  
    
         a. method Overloading(**Compile Time Polymorphism**)  
